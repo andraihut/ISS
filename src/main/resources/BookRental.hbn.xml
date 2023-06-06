@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="biblioteca.labissbiblioteca.domain">
+    <class name="BookRental" table="BookRental">
+        <id name="Id" column="id"> <generator class="increment"/> </id>
+        <property name="id_book" column="id_book"/>
+        <property name="id_client" column="id_client"/>
+        <property name="returned" column="returned"/>
+    </class>
+</hibernate-mapping>

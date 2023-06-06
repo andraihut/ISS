@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biblioteca.labissbiblioteca.ViewClientsController">
+   <children>
+      <TableView fx:id="table" layoutX="29.0" layoutY="50.0" prefHeight="336.0" prefWidth="720.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="42.0" text="Id" />
+          <TableColumn fx:id="usernameColumn" prefWidth="108.0" text="Username" />
+            <TableColumn fx:id="parolaColumn" prefWidth="123.0" text="Password" />
+            <TableColumn fx:id="firstnameColumn" prefWidth="143.0" text="First Name" />
+            <TableColumn fx:id="lastnameColumn" prefWidth="126.0" text="Last Name" />
+            <TableColumn fx:id="emailColumn" prefWidth="178.0" text="Email" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

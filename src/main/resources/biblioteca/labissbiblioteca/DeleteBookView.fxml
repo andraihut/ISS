@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="152.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biblioteca.labissbiblioteca.DeleteBookController">
+   <children>
+      <Label layoutX="25.0" layoutY="36.0" text="Enter the ID of the book you want to delete.">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <TextField fx:id="idBookTxt" layoutX="51.0" layoutY="67.0" prefHeight="36.0" prefWidth="53.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextField>
+      <Button layoutX="131.0" layoutY="67.0" mnemonicParsing="false" onMouseClicked="#deleteBookClick" prefHeight="36.0" prefWidth="136.0" text="Delete book">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

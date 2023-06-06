@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="420.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biblioteca.labissbiblioteca.RentBookController">
+   <children>
+      <TableView fx:id="table" layoutX="26.0" layoutY="29.0" prefHeight="314.0" prefWidth="576.0">
+         <columns>
+            <TableColumn fx:id="idColumn" prefWidth="51.0" text="ID" />
+            <TableColumn fx:id="titleColumn" prefWidth="194.0" text="Title" />
+            <TableColumn fx:id="authorColumn" prefWidth="211.0" text="Author" />
+            <TableColumn fx:id="yearColumn" prefWidth="117.0" text="Year" />
+         </columns>
+      </TableView>
+      <Button layoutX="179.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#rentBookClick" prefHeight="35.0" prefWidth="290.0" text="Rent book">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
